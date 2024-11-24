@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         editAge = findViewById(R.id.editAge)
 
         editAge.filters = arrayOf(DigitsInputFilter())
+        // dfsdfs
 
         button.setOnClickListener {
             if (editEmail.text.toString().isNotEmpty() && editName.text.toString().isNotEmpty() && editLastName.text.toString().isNotEmpty() && editAge.text.toString().isNotEmpty()) {
