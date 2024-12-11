@@ -43,11 +43,11 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     containerColor = Color.Gray,
                     content = { innerPadding ->
-//                        Greeting(
-//                            name = "Android",
-//                            modifier = Modifier.padding(innerPadding)
-//                        )
-                        MyScreen(modifier = Modifier.padding(innerPadding))
+                        Greeting(
+                            name = "Android",
+                            modifier = Modifier.padding(innerPadding)
+                        )
+//                        MyScreen(modifier = Modifier.padding(innerPadding))
                     }
                 )
             }

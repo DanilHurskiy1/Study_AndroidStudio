@@ -6,7 +6,7 @@ import androidx.compose.ui.Modifier
 
 @Composable
 fun BasicTextView(text : String){
-    Text(text = "Hello $text!")
+    Text(text = "$text")
 }
 
 @Composable
