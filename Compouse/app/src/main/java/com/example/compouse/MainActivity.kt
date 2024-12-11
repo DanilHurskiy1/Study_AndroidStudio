@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.compouse.lesson_001.Greeting
 import com.example.compouse.lesson_002.ButtonExamplesScreen
+import com.example.compouse.lesson_003.ListExamples
 import com.example.compouse.ui.theme.CompouseTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +25,8 @@ class MainActivity : ComponentActivity() {
             CompouseTheme {
                 Scaffold(
                     content = { innerPadding ->
-                        ButtonExamplesScreen(innerPaddingValues = innerPadding)
+                        ListExamples(innerPadding = innerPadding)
+//                        ButtonExamplesScreen(innerPaddingValues = innerPadding)
 //                        Greeting(
 //                            name = "Android",
 //                            modifier = Modifier.padding(innerPadding)
